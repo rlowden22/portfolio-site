@@ -1,0 +1,53 @@
+/* Overall reset and retro look */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000;
+  color: #00FF00; /* Classic green-on-black */
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* Headers */
+h1, h2, h3 {
+  color: #00FF00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+/* Navigation links */
+nav a {
+  color: #00FF00;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Project sections and layout */
+.project {
+  border: 2px dashed #00FF00;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #111;
+}
+
+/* Images */
+.project img {
+  max-width: 100%;
+  border: 2px solid #00FF00;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  tex
